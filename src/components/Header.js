@@ -43,7 +43,7 @@ export default function Header() {
                     <source src="../img/video.webm" type="video/webm"/>
                     Sorry, your browser doesn't support embedded videos.
                 </video>*/}
-                <video src="video.webm" width="100%" muted height="100%" autoPlay={true} loop/>
+                <video src="video.mp4" width="100%" muted height="100%" autoPlay={true} loop/>
                 {/*<ReactPlayer*/}
                 {/*    url="../img/video.webm"*/}
                 {/*/>*/}
