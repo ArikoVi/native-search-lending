@@ -1,0 +1,22 @@
+.us {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 140px;
+
+  @media (max-width: 860px) {
+    margin-bottom: 80px;
+  }
+
+  &_list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    & .circle img {
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+}

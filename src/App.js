@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import './css/container.scss'
+import Browser from "./components/browser";
+import {Player} from "@lottiefiles/react-lottie-player";
+import Technologies from "./components/Tehnologies";
+import Us from "./components/Us";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="container">
+            <nav></nav>
+            <Header/>
+            <Browser/>
+            <Technologies/>
+            <Us/>
+            {/*<Player
+                src="https://assets7.lottiefiles.com/packages/lf20_wbhsa1lf.json"
+                className="dogs"
+                loop
+                autoplay
+            />*/}
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
