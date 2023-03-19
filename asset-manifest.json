@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/native-search-lending/static/css/main.5b106a27.css",
-    "main.js": "/native-search-lending/static/js/main.7c074f74.js",
+    "main.js": "/native-search-lending/static/js/main.6ca4695f.js",
     "static/js/787.9f1f250f.chunk.js": "/native-search-lending/static/js/787.9f1f250f.chunk.js",
     "static/media/fon.jpg": "/native-search-lending/static/media/fon.892375f6807df103db01.jpg",
     "static/media/pop.png": "/native-search-lending/static/media/pop.cbc2d0db124347da9640.png",
@@ -16,11 +16,11 @@
     "static/media/paw-d.png": "/native-search-lending/static/media/paw-d.b8fdea4f87d937a79812.png",
     "index.html": "/native-search-lending/index.html",
     "main.5b106a27.css.map": "/native-search-lending/static/css/main.5b106a27.css.map",
-    "main.7c074f74.js.map": "/native-search-lending/static/js/main.7c074f74.js.map",
+    "main.6ca4695f.js.map": "/native-search-lending/static/js/main.6ca4695f.js.map",
     "787.9f1f250f.chunk.js.map": "/native-search-lending/static/js/787.9f1f250f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b106a27.css",
-    "static/js/main.7c074f74.js"
+    "static/js/main.6ca4695f.js"
   ]
 }
